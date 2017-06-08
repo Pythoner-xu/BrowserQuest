@@ -1,5 +1,4 @@
-BrowserQuest client documentation
-客户端文档
+BrowserQuest client documentation `客户端文档`
 =================================
 
 The client directory should never be directly deployed to staging/production. Deployment steps:
@@ -23,7 +22,7 @@ Edit the contents of this file to change host/port settings.
 * chmod +x build.sh
 * ./build.sh
 
-This will use the RequireJS optimizer tool to create a client-build/ directory containing a production-ready version of BrowserQuest. 
+This will use the RequireJS optimizer tool to create a client-build/ directory containing a production-ready version of BrowserQuest.
 将会调用RequireJS优化工具，创建一个client-build/目录，里面包含了一个可部署到生产环境的版本
 
 A build log file will also be created at bin/build.txt.

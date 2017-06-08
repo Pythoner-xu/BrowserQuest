@@ -1,5 +1,4 @@
-BrowserQuest server documentation
-服务端文档
+BrowserQuest server documentation `服务端文档`
 =================================
 
 The game server currently runs on nodejs v0.4.7 (but should run fine on the latest stable as well) and requires the latest versions of the following npm libraries:
@@ -16,8 +15,7 @@ The game server currently runs on nodejs v0.4.7 (but should run fine on the late
 All of them can be installed via `npm install -d` (this will install a local copy of all the dependencies in the node_modules directory)
 上面的库可以通过“npm install -d”来安装，这将在node_modules目录下安装一所有依赖的拷贝
 
-Configuration
-配置
+Configuration `配置`
 -------------
 
 The server settings (number of worlds, number of players per world, etc.) can be configured.
@@ -25,8 +23,7 @@ The server settings (number of worlds, number of players per world, etc.) can be
 Copy `config_local.json-dist` to a new `config_local.json` file, then edit it. The server will override default settings with this file.
 拷贝“config_local.json-dist”到一个新文件“config_local.json”中，然后编辑它。服务器将会使用改文件覆盖默认设置。
 
-Deployment
-部署
+Deployment `部署`
 ----------
 
 In order to deploy the server, simply copy the `server` and `shared` directories to the staging/production server.
@@ -38,8 +35,7 @@ Then run `node server/js/main.js` in order to start the server.
 Note: the `shared` directory is the only one in the project which is a server dependency.
 注意：“shared”目录是项目中唯一一个存放服务器依赖的目录
 
-Monitoring
-监视
+Monitoring `监视`
 ----------
 
 The server has a status URL which can be used as a health check or simply as a way to monitor player population.
