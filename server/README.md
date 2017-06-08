@@ -19,9 +19,8 @@ Configuration `配置`
 -------------
 
 The server settings (number of worlds, number of players per world, etc.) can be configured.  
-**服务器设置（世界服务器数量，每个世界服务器的玩家数）可以被配置**
 Copy `config_local.json-dist` to a new `config_local.json` file, then edit it. The server will override default settings with this file.  
-**拷贝“config_local.json-dist”到一个新文件“config_local.json”中，然后编辑它。服务器将会使用改文件覆盖默认设置。**
+**服务器设置（世界服务器数量，每个世界服务器的玩家数）可以被配置,拷贝“config_local.json-dist”到一个新文件“config_local.json”中，然后编辑它。服务器将会使用改文件覆盖默认设置。**
 
 Deployment `部署`
 ----------
