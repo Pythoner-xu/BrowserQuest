@@ -2,7 +2,7 @@ BrowserQuest
 ============
 
 BrowserQuest is a HTML5/JavaScript multiplayer game experiment.
-BrowserQuest是一款HTML5/JavaScript多人在线游戏实验
+#BrowserQuest是一款HTML5/JavaScript多人在线游戏实验
 
 Documentation 文档
 -------------
